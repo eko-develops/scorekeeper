@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+
+  background-color: #1b1b1b;
+}
+
+.container {
+  background-color: teal;
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+button {
+  border: none;
+  padding: 5px 12px;
+  margin: auto;
+}
